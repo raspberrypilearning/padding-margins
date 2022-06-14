@@ -1,59 +1,55 @@
-## Introduction
+The diagram below shows the **box model**. This is used to help web designers see which values they need to adjust in order to get their margins, padding and borders the right size. 
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+![A diagram showing the box model that is used to demonstrate how margins and padding are applied to elements. The margin is the outer most area, then the border sits within that and the padding sits within that.](images/box-model.png)
 
-### What you will make
+The `margin` property is the outermost area of the element. 
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+The `border` nests inside the `margin`. 
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+The `padding` nests inside the `border`.
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+The space in the centre shows the content within the element. 
 
---- collapse ---
+The code below shows the settings for the `margin` and `padding` properties. 
+
+--- code ---
 ---
-title: What you will need
+language: CSS
+filename: style.css
+line_numbers: false
+line_number_start: 1
+line_highlights: 4, 7
 ---
-### Hardware
+main {
+  background: var(--primary); /* Colour the background */
+  color: var(--onprimary); /* Colour the text */
+  margin: 0 auto; /* Center if the browser is really wide */
+  min-width: 25rem; /* Don't let the content get too narrow */
+  max-width: 70rem; /*  Don't let the content get too wide */
+  padding: 0;
+  padding-top: 0.5rem; /* Padding at the top */
+  margin-bottom: 1em; /* Gap before the footer */
+}
+--- /code ---
 
-+ A computer or tablet capable of running Scratch 3
+You can also specify the side of the content that you wish to add margins, padding and borders to. 
 
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
+--- code ---
 ---
-title: What you will learn
+language: CSS
+filename: style.css
+line_numbers: false
+line_number_start: 1
+line_highlights: 8-9
 ---
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+main {
+  background: var(--primary); /* Colour the background */
+  color: var(--onprimary); /* Colour the text */
+  margin: 0 auto; /* Center if the browser is really wide */
+  min-width: 25rem; /* Don't let the content get too narrow */
+  max-width: 70rem; /*  Don't let the content get too wide */
+  padding: 0;
+  padding-top: 0.5rem; /* Padding at the top */
+  margin-bottom: 1em; /* Gap before the footer */
+}
+--- /code ---
