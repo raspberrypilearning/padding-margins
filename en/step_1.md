@@ -1,4 +1,4 @@
-The diagram below shows the **box model**. Web designers use a box model to see which values they need to adjust to make their margins, padding, and borders the right size. 
+The diagram below shows the **box model**. Web designers use this model to see which values they need to adjust to make their margins, padding, and borders the right size. 
 
 ![A rectangle that has a label on each side to state 'top', 'right', 'bottom', or 'left'. The shape has been divided into four layers. The outermost layer is labelled 'margin', the next layer is labelled 'border', the third layer is labelled 'padding', and the fourth layer in the centre of the rectangle has no label.](images/box-model.png)
 
