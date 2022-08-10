@@ -1,6 +1,6 @@
-The diagram below shows the **box model**. This is used to help web designers see which values they need to adjust in order to get their margins, padding and borders the right size. 
+The diagram below shows the **box model**. Web designers use a box model to see which values they need to adjust to make their margins, padding, and borders the right size. 
 
-![A diagram showing the box model that is used to demonstrate how margins and padding are applied to elements. The margin is the outer most area, then the border sits within that and the padding sits within that.](images/box-model.png)
+![A rectangle that has a label on each side to state 'top', 'right', 'bottom', or 'left'. The shape has been divided into four layers. The outermost layer is labelled 'margin', the next layer is labelled 'border', the third layer is labelled 'padding', and the fourth layer in the centre of the rectangle has no label.](images/box-model.png)
 
 The `margin` property is the outermost area of the element. 
 
@@ -23,7 +23,7 @@ line_highlights: 4, 7
 main {
   background: var(--primary); /* Colour the background */
   color: var(--onprimary); /* Colour the text */
-  margin: 0 auto; /* Center if the browser is really wide */
+  margin: 0 auto; /* Centre if the browser is really wide */
   min-width: 25rem; /* Don't let the content get too narrow */
   max-width: 70rem; /*  Don't let the content get too wide */
   padding: 0;
@@ -32,7 +32,7 @@ main {
 }
 --- /code ---
 
-You can also specify the side of the content that you wish to add margins, padding and borders to. 
+You can also specify which side of the content you wish to add margins, padding, and borders to. 
 
 --- code ---
 ---
@@ -45,7 +45,7 @@ line_highlights: 8-9
 main {
   background: var(--primary); /* Colour the background */
   color: var(--onprimary); /* Colour the text */
-  margin: 0 auto; /* Center if the browser is really wide */
+  margin: 0 auto; /* Centre if the browser is really wide */
   min-width: 25rem; /* Don't let the content get too narrow */
   max-width: 70rem; /*  Don't let the content get too wide */
   padding: 0;
