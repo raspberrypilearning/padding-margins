@@ -20,6 +20,7 @@ line_numbers: false
 line_number_start: 1
 line_highlights: 4, 7
 ---
+
 main {
   background: var(--primary); /* Colour the background */
   color: var(--onprimary); /* Colour the text */
@@ -42,6 +43,7 @@ line_numbers: false
 line_number_start: 1
 line_highlights: 8-9
 ---
+
 main {
   background: var(--primary); /* Colour the background */
   color: var(--onprimary); /* Colour the text */
