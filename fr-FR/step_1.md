@@ -18,7 +18,7 @@ language: CSS
 filename: style.css
 line_numbers: false
 line_number_start: 1
-line_highlights: 4, 7
+line_highlights: 5, 8
 ----------------------------------------------------------
 
 main {
@@ -41,8 +41,8 @@ language: CSS
 filename: style.css
 line_numbers: false
 line_number_start: 1
-line_highlights: 8-9
----------------------------------------------------------
+line_highlights: 9-10
+----------------------------------------------------------
 
 main {
 background: var(--primary); /\* Colore l'arrière-plan _/
