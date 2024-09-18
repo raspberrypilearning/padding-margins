@@ -1,16 +1,16 @@
-The diagram below shows the **box model**. Web designers use this model to see which values they need to adjust to make their margins, padding, and borders the right size.
+Het diagram hieronder toont het **boxmodel**. Webontwerpers gebruiken dit model om te bepalen welke waarden ze moeten aanpassen om hun marges (margins), opvulling (padding) en randen (borders) de juiste grootte te geven.
 
-![A rectangle that has a label on each side to state 'top', 'right', 'bottom', or 'left'. The shape has been divided into four layers. The outermost layer is labelled 'margin', the next layer is labelled 'border', the third layer is labelled 'padding', and the fourth layer in the centre of the rectangle has no label.](images/box-model.png)
+![Een rechthoek met aan elke kant een label waarop staat 'top', 'right', 'bottom' of 'left'. De vorm is in vier lagen verdeeld. De buitenste laag is gelabeld als 'margin', de volgende laag is gelabeld als 'border', de derde laag is gelabeld als 'padding' en de vierde laag in het midden van de rechthoek heeft geen label.](images/box-model.png)
 
-The `margin` property is the outermost area of the element.
+De eigenschap `margin` is het buitenste gebied van het element.
 
-The `border` nests inside the `margin`.
+De `border` bevindt zich in de `margin`.
 
-The `padding` nests inside the `border`.
+De `padding` bevindt zich binnen de `border`.
 
-The space in the centre shows the content within the element.
+De ruimte in het midden geeft de inhoud van het element weer.
 
-The code below shows the settings for the `margin` and `padding` properties.
+De code hieronder toont de instellingen voor de `margin` en `padding` eigenschappen.
 
 ## --- code ---
 
@@ -22,18 +22,18 @@ line_highlights: 4, 7
 ----------------------------------------------------------
 
 main {
-background: var(--primary); /\* Colour the background _/
-color: var(--onprimary); /_ Colour the text _/
-margin: 0 auto; /_ Centre if the browser is really wide _/
-min-width: 25rem; /_ Don't let the content get too narrow _/
-max-width: 70rem; /_  Don't let the content get too wide _/
+background: var(--primary); /\* Kleur de achtergrond _/
+color: var(--onprimary); /_ Kleur de tekst _/
+margin: 0 auto; /_ Centreer als de browser echt breed is _/
+min-width: 25rem; /_ Laat de inhoud niet te smal worden _/
+max-width: 70rem; /_ Laat de inhoud niet te breed worden _/
 padding: 0;
-padding-top: 0.5rem; /_ Padding at the top _/
-margin-bottom: 1em; /_ Gap before the footer \*/
+padding-top: 0.5rem; /_ Opvulling bovenaan _/
+margin-bottom: 1em; /_ Ruimte voor de voettekst \*/
 }
 \--- /code ---
 
-You can also specify which side of the content you wish to add margins, padding, and borders to.
+Je kunt ook aangeven aan welke kant van de inhoud je margins, padding en borders wilt toevoegen.
 
 ## --- code ---
 
@@ -45,13 +45,13 @@ line_highlights: 8-9
 ---------------------------------------------------------
 
 main {
-background: var(--primary); /\* Colour the background _/
-color: var(--onprimary); /_ Colour the text _/
-margin: 0 auto; /_ Centre if the browser is really wide _/
-min-width: 25rem; /_ Don't let the content get too narrow _/
-max-width: 70rem; /_  Don't let the content get too wide _/
+background: var(--primary); /\* Kleur de achtergrond _/
+color: var(--onprimary); /_ Kleur de tekst _/
+margin: 0 auto; /_ Centreer als de browser echt breed is _/
+min-width: 25rem; /_ Laat de inhoud niet te smal worden _/
+max-width: 70rem; /_ Laat de inhoud niet te breed worden _/
 padding: 0;
-padding-top: 0.5rem; /_ Padding at the top _/
-margin-bottom: 1em; /_ Gap before the footer \*/
+padding-top: 0.5rem; /_ Opvulling bovenaan _/
+margin-bottom: 1em; /_ Ruimte voor de voettekst \*/
 }
 \--- /code ---
