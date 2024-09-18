@@ -1,16 +1,16 @@
-The diagram below shows the **box model**. Web designers use this model to see which values they need to adjust to make their margins, padding, and borders the right size.
+Le diagramme ci-dessous montre le **modèle de boîte**. Les concepteurs de sites web utilisent ce modèle pour savoir quelles valeurs ils doivent ajuster pour que leurs marges, remplissages et bordures soient de la bonne taille.
 
-![A rectangle that has a label on each side to state 'top', 'right', 'bottom', or 'left'. The shape has been divided into four layers. The outermost layer is labelled 'margin', the next layer is labelled 'border', the third layer is labelled 'padding', and the fourth layer in the centre of the rectangle has no label.](images/box-model.png)
+![Un rectangle qui a une étiquette sur chaque côté pour indiquer « top », « right », « bottom » ou « left ». La forme a été divisée en quatre couches. La couche la plus externe est étiquetée « margin », la couche suivante est étiquetée « border », la troisième couche est étiquetée « padding » et la quatrième couche au centre du rectangle n'a pas d'étiquette.](images/box-model.png)
 
-The `margin` property is the outermost area of the element.
+La propriété « margin » est la zone la plus externe de l’élément.
 
-The `border` nests inside the `margin`.
+La « border » s’imbrique à l’intérieur de la « margin ».
 
-The `padding` nests inside the `border`.
+Le « padding » s'imbrique à l'intérieur de la « border ».
 
-The space in the centre shows the content within the element.
+L'espace au centre montre le contenu de l'élément.
 
-The code below shows the settings for the `margin` and `padding` properties.
+Le code ci-dessous montre les paramètres des propriétés « margin » et « padding ».
 
 ## --- code ---
 
@@ -22,18 +22,18 @@ line_highlights: 4, 7
 ----------------------------------------------------------
 
 main {
-background: var(--primary); /\* Colour the background _/
-color: var(--onprimary); /_ Colour the text _/
-margin: 0 auto; /_ Centre if the browser is really wide _/
-min-width: 25rem; /_ Don't let the content get too narrow _/
-max-width: 70rem; /_  Don't let the content get too wide _/
+background: var(--primary); /\* Colore l'arrière-plan _/
+color: var(--onprimary); /_ Colore le texte _/
+margin: 0 auto; /_ Centre si le navigateur est vraiment large _/
+min-width: 25rem; /_ Ne laisse pas le contenu devenir trop étroit _/
+max-width: 70rem; /_ Ne laisse pas le contenu devenir trop large _/
 padding: 0;
-padding-top: 0.5rem; /_ Padding at the top _/
-margin-bottom: 1em; /_ Gap before the footer \*/
+padding-top: 0.5rem; /_ Remplissage en haut _/
+margin-bottom: 1em; /_ Espace avant le pied de page \*/
 }
 \--- /code ---
 
-You can also specify which side of the content you wish to add margins, padding, and borders to.
+Tu peux également spécifier le côté du contenu auquel tu souhaites ajouter des marges, des remplissages et des bordures.
 
 ## --- code ---
 
@@ -45,13 +45,13 @@ line_highlights: 8-9
 ---------------------------------------------------------
 
 main {
-background: var(--primary); /\* Colour the background _/
-color: var(--onprimary); /_ Colour the text _/
-margin: 0 auto; /_ Centre if the browser is really wide _/
-min-width: 25rem; /_ Don't let the content get too narrow _/
-max-width: 70rem; /_  Don't let the content get too wide _/
+background: var(--primary); /\* Colore l'arrière-plan _/
+color: var(--onprimary); /_ Colore le texte _/
+margin: 0 auto; /_ Centre si le navigateur est vraiment large _/
+min-width: 25rem; /_ Ne laisse pas le contenu devenir trop étroit _/
+max-width: 70rem; /_ Ne laisse pas le contenu devenir trop large _/
 padding: 0;
-padding-top: 0.5rem; /_ Padding at the top _/
-margin-bottom: 1em; /_ Gap before the footer \*/
+padding-top: 0.5rem; /_ Remplissage en haut _/
+margin-bottom: 1em; /_ Espace avant le pied de page \*/
 }
 \--- /code ---
