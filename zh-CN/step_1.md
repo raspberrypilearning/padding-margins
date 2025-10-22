@@ -1,16 +1,16 @@
-The diagram below shows the **box model**. Web designers use this model to see which values they need to adjust to make their margins, padding, and borders the right size.
+下图显示了**盒子模型**。 网页设计师使用此模型来查看需要调整哪些值才能使外边距、内边距和边框达到正确的大小。
 
-![A rectangle that has a label on each side to state 'top', 'right', 'bottom', or 'left'. The shape has been divided into four layers. The outermost layer is labelled 'margin', the next layer is labelled 'border', the third layer is labelled 'padding', and the fourth layer in the centre of the rectangle has no label.](images/box-model.png)
+![一个矩形，每边都有一个标签，分别表示“顶部”、“右侧”、“底部”或“左侧”。 形状被分为四层。 最外层标记为“外边距”，下一层标记为“边框”，第三层标记为“内边距”，矩形中心的第四层没有标签。](images/box-model.png)
 
-The `margin` property is the outermost area of the element.
+`margin` 属性是元素的最外层区域。
 
-The `border` nests inside the `margin`.
+`border` 嵌套在 `margin` 里面。
 
-The `padding` nests inside the `border`.
+`padding` 嵌套在 `border` 内。
 
-The space in the centre shows the content within the element.
+中心的空间显示元素内的内容。
 
-The code below shows the settings for the `margin` and `padding` properties.
+下面的代码显示了 `margin` 和 `padding` 属性的设置。
 
 ## --- code ---
 
@@ -22,18 +22,18 @@ line_highlights: 5, 8
 ----------------------------------------------------------
 
 main {
-background: var(--primary); /\* Colour the background _/
-color: var(--onprimary); /_ Colour the text _/
-margin: 0 auto; /_ Centre if the browser is really wide _/
-min-width: 25rem; /_ Don't let the content get too narrow _/
-max-width: 70rem; /_  Don't let the content get too wide _/
+background: var(--primary); /\* 为背景着色 _/
+color: var(--onprimary); /_ 为文本着色 _/
+margin: 0 auto; /_ 如果浏览器非常宽，则居中 _/
+min-width: 25rem; /_ 不要让内容太窄 _/
+max-width: 70rem; /_ 不要让内容太宽 _/
 padding: 0;
-padding-top: 0.5rem; /_ Padding at the top _/
-margin-bottom: 1em; /_ Gap before the footer \*/
+padding-top: 0.5rem; /_ 顶部内边距 _/
+margin-bottom: 1em; /_ 页脚前的间隙 \*/
 }
 \--- /code ---
 
-You can also specify which side of the content you wish to add margins, padding, and borders to.
+你还可以指定要在内容的哪一侧添加外边距、内边距和边框。
 
 ## --- code ---
 
@@ -45,13 +45,13 @@ line_highlights: 9-10
 ----------------------------------------------------------
 
 main {
-background: var(--primary); /\* Colour the background _/
-color: var(--onprimary); /_ Colour the text _/
-margin: 0 auto; /_ Centre if the browser is really wide _/
-min-width: 25rem; /_ Don't let the content get too narrow _/
-max-width: 70rem; /_  Don't let the content get too wide _/
+background: var(--primary); /\* 为背景着色 _/
+color: var(--onprimary); /_ 为文本着色 _/
+margin: 0 auto; /_ 如果浏览器非常宽，则居中 _/
+min-width: 25rem; /_ 不要让内容太窄 _/
+max-width: 70rem; /_  不要让内容太宽 _/
 padding: 0;
-padding-top: 0.5rem; /_ Padding at the top _/
-margin-bottom: 1em; /_ Gap before the footer \*/
+padding-top: 0.5rem; /_ 顶部内边距 _/
+margin-bottom: 1em; /_ 页脚前的间隙 \*/
 }
 \--- /code ---
